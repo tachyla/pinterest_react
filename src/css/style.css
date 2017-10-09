@@ -3,6 +3,11 @@
     width: 25%;
 }
 
+img {
+    height: 250px;
+    width: 250px;
+}
+
 .pinterestHeader {
     text-align: center;
 }
