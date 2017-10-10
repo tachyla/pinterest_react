@@ -38,4 +38,4 @@ class BoardCard extends React.Component {
   }
 }
 
-export default PinsList;
+export default BoardCard;
