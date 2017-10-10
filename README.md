@@ -1,13 +1,21 @@
 
-Up & Running: packages needed
+Get Up & Running: 
 
-react-scrollbar npm package and documentation => https://npm.runkit.com/react-scrollbar
+The following dependencies are needed to successfully install the application:
 
-scrollbar implementation => https://github.com/souhe/reactScrollbar/blob/master/src/js/ScrollArea.jsx
+React 15.6.2
+ReactDom 
+React Router Dom
+prop-types
 
-Board Description
 
-Pin Description
+
+BoardCard - Description
+
+The board component
+
+PinsList Component - Description
 
 Widget Actions
 
+Responsive design??

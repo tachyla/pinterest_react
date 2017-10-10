@@ -1,13 +1,29 @@
 .imageContainer {
     display: inline-flex;
     width: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.widgetContainer {
+    display: inline-flex;
+    align-items: center;
 }
 
 img {
     height: 225px;
     width: 250px;
     border-radius: 10%;
+}
 
+.pinLogo {
+    height: 50px;
+    width: 50px;
+}
+
+.homeLogo {
+    height: 90px;
+    width: 110px;
 }
 
 .pinterestHeader {

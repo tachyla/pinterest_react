@@ -1,6 +1,7 @@
 import BoardCard from './components/board-card';
 import React from 'react';
 import ReactDOM from 'react-dom'; 
+
 import pins_formated from './pins_formatted.json';
 
  class App extends React.Component {
@@ -8,6 +9,7 @@ import pins_formated from './pins_formatted.json';
     return (
       <div className="center">
         <BoardCard />
+
     	</div>)
   }
 

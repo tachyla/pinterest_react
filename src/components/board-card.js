@@ -1,6 +1,9 @@
 import React from 'react';
 import PinsList from './pins-list';
 import SearchWidget from './search-widget';
+import LogoWidget from './logo-widget';
+import HomeWidget from './home-widget';
+
 
 class BoardCard extends React.Component {
   constructor(props) {
@@ -27,10 +30,12 @@ class BoardCard extends React.Component {
         <p className="pinterestHeader">Powered with React</p>
         <p className="pinterestHeader">Designed By TaChyla Murray</p>
 
-        <div className="widgetbox">
+        <div className="widgetContainer">
+          <LogoWidget />
           <SearchWidget onChange={searchTerm => this.setState({searchTerm})} />
+          <HomeWidget />
         </div>
-
+        
         {this.repeat_images()} 
         
       </div>
