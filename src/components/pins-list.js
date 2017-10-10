@@ -1,5 +1,7 @@
 import React from 'react';
 import SearchWidget from './search-widget';
+import LogoWidget from './logo-widget';
+import HomeWidget from './home-widget';
 import pins_formatted from '../pins_formatted.json';
 import '../css/style.css';
 
@@ -24,7 +26,12 @@ class PinsList extends React.Component {
     );
     return (
       <div className="liveSearch">
-        <SearchWidget onChange={searchTerm => this.setState({searchTerm})} />
+        
+        <div className="widgetContainer">
+          <LogoWidget />
+          <SearchWidget onChange={searchTerm => this.setState({searchTerm})} />
+          <HomeWidget />
+        </div>
         <ul className="pins-list">
           {pins}
         </ul>
