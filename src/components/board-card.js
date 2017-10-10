@@ -7,6 +7,7 @@ class BoardCard extends React.Component {
     let repeatedArray = [];
     for(let i = 0; i < 20; i++) {
       repeatedArray.push(<PinsList/>);
+      //instead only repeat pins prop
     } 
     return repeatedArray;
   }
