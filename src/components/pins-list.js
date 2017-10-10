@@ -2,7 +2,6 @@ import React from 'react';
 import pins_formatted from '../pins_formatted.json';
 import '../css/style.css';
 
-
 class PinsList extends React.Component {
   
   render() {
@@ -13,7 +12,6 @@ class PinsList extends React.Component {
         <img src={pin.images.orig.url} alt={pin.description} /> 
       </a>
     </li>
-
     );
 
     return (

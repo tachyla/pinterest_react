@@ -4,7 +4,6 @@ import SearchWidget from './search-widget';
 import LogoWidget from './logo-widget';
 import HomeWidget from './home-widget';
 
-
 class BoardCard extends React.Component {
   constructor(props) {
     super(props);
@@ -25,19 +24,15 @@ class BoardCard extends React.Component {
     
     return (
       <div className="card">
-
         <h1 className="pinterestHeader">Pinterest </h1>
         <p className="pinterestHeader">Powered with React</p>
         <p className="pinterestHeader">Designed By TaChyla Murray</p>
-
         <div className="widgetContainer">
           <LogoWidget />
           <SearchWidget onChange={searchTerm => this.setState({searchTerm})} />
           <HomeWidget />
         </div>
-        
         {this.repeat_images()} 
-        
       </div>
     );
   }
