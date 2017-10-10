@@ -3,8 +3,8 @@ import React from 'react';
 export default function SearchWidget(props) {
     return (
         <form onSubmit={e => e.preventDefault()}>
-            <label htmlFor="search">Search</label>&emsp;
-            <input type="search" id="search" name="search" placeholder="cute" 
+            <label htmlFor="search">Filter</label>&emsp;
+            <input type="search" id="filter" name="filter" placeholder="cute" 
                 onChange={e => props.onChange(e.target.value)} />
         </form>
     );
