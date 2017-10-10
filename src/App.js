@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 
 import pins_formated from './pins_formatted.json';
 
- class App extends React.Component {
+ export default class App extends React.Component {
   render() {
     return (
       <div className="center">

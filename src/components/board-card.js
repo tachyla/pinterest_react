@@ -23,7 +23,7 @@ class BoardCard extends React.Component {
   render() {
     
     return (
-      <div className="card">
+      <div className="boardCard">
         <h1 className="pinterestHeader">Pinterest </h1>
         <p className="pinterestHeader">Powered with React</p>
         <p className="pinterestHeader">Designed By TaChyla Murray</p>
@@ -38,4 +38,4 @@ class BoardCard extends React.Component {
   }
 }
 
-export default BoardCard;
+export default PinsList;
