@@ -23,5 +23,5 @@ The most significant library used for this one page application is React. It all
 Widgets represent how powerful the React Library is, providing small modular stateless components that can be used or omitted
     **logo - links user to pinterest.com
     **search - filters images based on search keywords
-    **home - returns user to their user profile
+    **home - returns to my user profile
 
